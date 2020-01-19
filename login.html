@@ -12,7 +12,7 @@
 	<header class="sticky-top menubar">
 		<div class="container">
 			<nav class="navbar navbar-expand-xl navbar-dark">
-				<a class="navbar-brand py-0" href="#">
+				<a class="navbar-brand py-0" href="index.html">
 					<img src="image/logo.jpg">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -71,6 +71,7 @@
 					<input type="Submit" class="btn btn-success">
 				</li>
 			</ul>
+			
 			<a href="#">Forgotten Password</a>
 			<hr>
 			<p class="note">Don't have an account yet?</p>
@@ -180,8 +181,8 @@ function topFunction() {
 }
 
 function HandleClick(){
-	var email=document.LogIn.email.value;
-	var Password=document.LogIn.password.value;
+	var email=document.HtmlForm.email.value;
+	var Password=document.HtmlForm.password.value;
 	if(email!="travelLove@gmail.com" && Password!="Sunset05"){
 		alert("Please check whether your email and password are correct");
 		return false;console.log="gret"
