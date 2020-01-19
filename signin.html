@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="image/logo2.png" type="image/png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="sticky-top menubar">
+		<div class="container">
+			<nav class="navbar navbar-expand-xl navbar-dark">
+				<a class="navbar-brand py-0" href="#">
+					<img src="image/logo.jpg">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="aboutus.html">ABOUT US</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">NEPAL</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="cultualheritageofnepal.html">Cultural Heritage of Nepal</a>
+								<a class="dropdown-item" href="cultureofnepal.html">Culture of Nepal</a>
+							</div>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="event.html">EVENTS</a>
+						</li>  
+						<li class="nav-item">
+							<a class="nav-link active" href="booking.html">BOOKING</a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="review.html">REVIEW</a>
+						</li>
+					</ul>
+				</div>  
+			</nav>
+		</div>
+	</header>
+	<div class="contain container ">
+		<h1>SIGN UP</h1>
+		<form name="signup" action="login.html" method="post" onsubmit="return handleClick()" class="form pl-3">
+			<table>
+				<tr>
+					<td>
+						<label class="level">Username </label>
+					</td>
+					<td class="sub">
+						<input type="text" name="name" class="form-control" placeholder="Username" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="level">Email </label>
+					</td>
+					<td class="sub">
+						<input type="email" name="email" class="form-control" placeholder="Email" required>
+						<td>
+						</tr>
+						<tr>
+							<td class="sub">
+								<label class="level">Password </label>
+							</td>
+							<td>
+								<input type="password" name="password" class="form-control" Placeholder="Password" minlength="8" required>
+							</td>
+						</tr>
+						<tr >
+							<td colspan="2" >
+								<p class="note">Password must be at least of 8 character</p></td>
+							</tr>
+							<tr>
+								<td>
+									<label class="level"> Confirm Password </label>
+								</td>
+								<td class="sub">
+									<input type="password" name="Cpassword" class="form-control" Placeholder="Confirm Password" minlength="8" required>
+								</td>
+								<tr>
+									<td class="sub">
+										<input type="submit" class="btn btn-success mb-3" value="Sign Up">
+									</td>
+								</tr>
+							</table>
+						</form>
+						<p class="note">By signing up, you are agree to our <a href="#">Terms and conditions, Privacy policy, Terms of use</a> and subscribe to our newsletters</p>
+					</div>
+					<footer class="pt-5">
+						<!-- Main footer start -->
+						<div class="main-footer">
+							<div class="container px-0">
+								<div class="row">
+									<div class="col-lg-3 col-sm-6  my-auto">
+										<a href="#">
+											<img src="image/logo3.jpg" alt="" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-lg-3 col-sm-6 text-black contact-us pt-sm-0 pt-4">
+										<h6>Contact us</h6>
+										<ul>
+											<li>
+												<a href="tel: +9779808000000">
+													(+977) 980 800 0000
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													sunset@travelagency.com
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-3 col-sm-6 text-black links pt-lg-0 pt-4" id="quick">
+										<h6>Quick Links</h6>
+										<ul>
+											<li>
+												<a href="index.html">
+													Home
+												</a>
+											</li>
+											<li>
+												<a href="aboutus.html">
+													About us
+												</a>
+											</li>
+											<li>
+												<a href="even.html">
+													Events
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-3 col-sm-6 subscribe text-black pt-lg-0 pt-4">
+										<h6>Subscribe Now</h6>
+										<form class="form-inline input-group">
+											<input class="form-control" type="search" placeholder="Your E-mail address..." aria-label="Search">
+											<div class="input-group-append">
+												<button class="btn btn-success" type="submit">SUBMIT</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container text-right social">
+							<a href="#">
+								<img class="img-fluid" src="image/fb.svg" alt="" ></a>
+								<a href="#">
+									<img class="img-fluid" src="image/insta.svg" alt="" >
+								</a>
+								<a href="#">
+									<img class="img-fluid" src="image/skype.svg" alt="" >
+								</a>
+								<a href="#">
+									<img class="img-fluid" src="image/whatsapp.svg" alt="" ></a>
+									<a href="#">
+										<img class="img-fluid" src="image/tweet.svg" alt="" ></a>
+									</div>
+									<!-- Copyright start -->
+									<div class="copyright">
+										<div class="container text-center text-white">
+											<p>&copy;2020, All rights reserved,Sunset Travel Agency(Pvt.)Ltd</p>
+										</div>
+									</div>
+									<!-- Copyright end -->
+								</footer>
+								<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+								<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	} else {
+		mybutton.style.display = "none";
+	}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+
+</script>
+<script src="js/both.js">
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
